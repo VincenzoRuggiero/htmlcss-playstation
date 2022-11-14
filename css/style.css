@@ -7,15 +7,24 @@
   font-family: Helvetica, sans-serif;
 } */
 
-.header-jumbo {
-  height: 500px;
+section.header-jumbo {
+  height: 600px;
   background-color: salmon;
-  background-image: url("../img/jumbo-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.header-jumbo img {
-  max-width: 60%;
+section.bg-first-game {
+  background-image: url("../img/jumbo-bg.png");
+}
+section.bg-second-game {
+  background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+}
+
+section.header-jumbo .first__game__logo {
+  max-width: 45%;
+}
+section.header-jumbo .second__game__logo {
+  max-width: 38%;
 }
