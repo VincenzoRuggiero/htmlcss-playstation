@@ -28,3 +28,8 @@ section.header-jumbo .first__game__logo {
 section.header-jumbo .second__game__logo {
   max-width: 38%;
 }
+
+.new__releases .row p {
+  font-size: 0.9rem;
+  padding-top: 0.5rem;
+}
