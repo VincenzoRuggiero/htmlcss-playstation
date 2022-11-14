@@ -1,12 +1,16 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Top bar */
 .sony__bar img {
   max-width: 5rem;
   min-height: 30px;
 }
 
-/* nav ul li {
+.navbar {
   font-family: Helvetica, sans-serif;
-} */
+}
 
 /* Jumbotrons */
 section.header-jumbo {
@@ -52,4 +56,18 @@ section.header-jumbo .second__game__logo {
 }
 .psnow__logo {
   max-width: 70%;
+}
+
+/* Social Icons */
+/* .social img {
+  max-width: 50%;
+} */
+
+/* Footer */
+footer {
+  background-color: #0044a2;
+}
+
+footer ul {
+  list-style-type: none;
 }
