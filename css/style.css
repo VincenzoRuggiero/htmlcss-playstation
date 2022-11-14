@@ -1,3 +1,4 @@
+/* Top bar */
 .sony__bar img {
   max-width: 5rem;
   min-height: 30px;
@@ -7,6 +8,7 @@
   font-family: Helvetica, sans-serif;
 } */
 
+/* Jumbotrons */
 section.header-jumbo {
   height: 600px;
   background-color: salmon;
@@ -29,15 +31,25 @@ section.header-jumbo .second__game__logo {
   max-width: 38%;
 }
 
+/* New releases section */
 .new__releases .row p {
   font-size: 0.9rem;
   padding-top: 0.5rem;
 }
 
+/* PlayStation Plus section background */
 .psplus {
   background-color: #bebcbb;
 }
 
+/* PlayStation Now section background */
+.psnow {
+  background-color: #141c3d;
+}
+
 .psplus__logo {
+  max-width: 70%;
+}
+.psnow__logo {
   max-width: 70%;
 }
