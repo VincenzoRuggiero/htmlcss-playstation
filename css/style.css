@@ -6,3 +6,16 @@
 /* nav ul li {
   font-family: Helvetica, sans-serif;
 } */
+
+.header-jumbo {
+  height: 500px;
+  background-color: salmon;
+  background-image: url("../img/jumbo-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header-jumbo img {
+  max-width: 60%;
+}
