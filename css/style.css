@@ -33,3 +33,11 @@ section.header-jumbo .second__game__logo {
   font-size: 0.9rem;
   padding-top: 0.5rem;
 }
+
+.psplus {
+  background-color: #bebcbb;
+}
+
+.psplus__logo {
+  max-width: 70%;
+}
