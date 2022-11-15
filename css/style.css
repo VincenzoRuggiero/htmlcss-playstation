@@ -2,9 +2,13 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
-/* Change Bootstrap 5 dropdown icon */
+/* Change Bootstrap 5 dropdown icon and image responsivness */
 .dropdown-toggle::after {
   display: none !important;
+}
+
+section.social .img-fluid {
+  max-width: 60%;
 }
 
 /* Top bar */
