@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 /* Top bar */
@@ -9,7 +9,11 @@ body {
 }
 
 .navbar {
-  font-family: Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
+}
+
+.navbar a:hover {
+  color: #008fdc;
 }
 
 /* Jumbotrons */
@@ -100,4 +104,19 @@ footer {
 
 footer ul {
   list-style-type: none;
+}
+
+footer li {
+  margin-bottom: 1.2rem;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: 300;
+  color: white;
+  font-size: 0.9rem;
+}
+
+footer a:hover {
+  color: white;
 }
