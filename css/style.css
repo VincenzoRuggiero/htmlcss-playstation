@@ -37,14 +37,43 @@ section.header-jumbo .second__game__logo {
   max-width: 38%;
 }
 
-.thumbnail:hover {
-  border: 3px solid red;
+.cards-border {
+  border: 3px solid white;
+}
+.cards-border:hover {
+  border-color: #008fdc;
+  transition: all 0.5s;
+}
+
+.btm-border-accessory {
+  position: relative;
+}
+
+.btm-border-accessory::after {
+  content: "";
+  opacity: 0;
+  transition: all 0.2s;
+  height: 2px;
+  width: 100%;
+  background-color: #008fdc;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.btm-border-accessory:hover::after {
+  opacity: 1;
 }
 
 /* New releases section */
 .new__releases .row p {
   font-size: 0.9rem;
   padding-top: 0.5rem;
+}
+
+.new__releases img:hover {
+  transition: all 0.5s;
+  transform: scale(1.1);
 }
 
 /* PlayStation Plus section background */
