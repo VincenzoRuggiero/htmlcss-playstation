@@ -2,6 +2,11 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
+/* Change Bootstrap 5 dropdown icon */
+.dropdown-toggle::after {
+  display: none !important;
+}
+
 /* Top bar */
 .sony__bar img {
   max-width: 5rem;
