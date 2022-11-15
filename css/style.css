@@ -14,11 +14,13 @@ body {
 
 /* Jumbotrons */
 section.header-jumbo {
-  height: 600px;
-  background-color: salmon;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+section.header-jumbo .row {
+  margin-top: 20rem;
 }
 
 section.bg-first-game {
@@ -33,6 +35,10 @@ section.header-jumbo .first__game__logo {
 }
 section.header-jumbo .second__game__logo {
   max-width: 38%;
+}
+
+.thumbnail:hover {
+  border: 3px solid red;
 }
 
 /* New releases section */
@@ -57,11 +63,6 @@ section.header-jumbo .second__game__logo {
 .psnow__logo {
   max-width: 70%;
 }
-
-/* Social Icons */
-/* .social img {
-  max-width: 50%;
-} */
 
 /* Footer */
 footer {
