@@ -2,13 +2,9 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
-/* Change Bootstrap 5 dropdown icon and image responsivness */
+/* Change Bootstrap 5 dropdown icon */
 .dropdown-toggle::after {
   display: none !important;
-}
-
-section.social .img-fluid {
-  max-width: 60%;
 }
 
 /* Top bar */
@@ -89,19 +85,15 @@ section.header-jumbo .second__game__logo {
   transform: scale(1.1);
 }
 
-/* PlayStation Plus section background */
+/* PlayStation Plus and  PlayStation Now section background */
 .psplus {
   background-color: #bebcbb;
 }
-
-/* PlayStation Now section background */
 .psnow {
   background-color: #141c3d;
 }
 
-.psplus__logo {
-  max-width: 70%;
-}
+.psplus__logo,
 .psnow__logo {
   max-width: 70%;
 }
